@@ -1,24 +1,3 @@
-// import "./App.css";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <h4 className="txt">welcome to redux</h4>
-//       <div className="container">
-//         <div className="">
-//           <a className="" title="Decrement">
-//             <span>-</span>
-//           </a>
-//           <input name="" type="text" className="" value="0" />
-//           <a className="" title="Increment">
-//             +
-//           </a>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
 import React from "react";
 //import "./style/App.scss";
 import "./style/App.scss";
