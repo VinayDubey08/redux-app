@@ -1,0 +1,21 @@
+.actions {
+  opacity: 0;
+}
+
+tr:hover .actions {
+  opacity: 1;
+}
+
+tbody td a {
+  color: #222;
+
+  &:hover {
+    color: #222;
+  }
+}
+.navbardata {
+  margin-bottom: 25px;
+}
+.datatb {
+  margin-top: 101px;
+}
