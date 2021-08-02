@@ -7,7 +7,7 @@ import "../../style/App.scss";
 const AddContact = () => {
   let history = useHistory();
   const dispatch = useDispatch(); //it's help of call function in onClick
-  const [name, setName] = useState("");
+  const [name, setName] = useState(""); //we are useing hook here all variable
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
 

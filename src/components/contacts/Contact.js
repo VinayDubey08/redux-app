@@ -3,7 +3,7 @@ import Avatar from "react-avatar";
 import { Link } from "react-router-dom";
 import { deleteContact } from "../../actions/contactAction";
 import { useDispatch } from "react-redux";
-import { Button, Modal } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 const Contact = ({ contact, selectAll }) => {
   const dispatch = useDispatch();
@@ -48,42 +48,42 @@ const Contact = ({ contact, selectAll }) => {
 
 function handleShow() {}
 
-function Example() {
-  const [show, setShow] = useState(false);
+// function Example() {
+//   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+//   const handleClose = () => setShow(false);
+//   const handleShow = () => setShow(true);
 
-  return (
-    <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch static backdrop modal
-      </Button>
+//   return (
+//     <>
+//       <Button variant="primary" onClick={handleShow}>
+//         Launch static backdrop modal
+//       </Button>
 
-      <Modal
-        show={show}
-        onHide={handleClose}
-        backdrop="static"
-        keyboard={false}
-      >
-        <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          I will not close if you click outside me. Don't even try to press
-          escape key.
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary">Understood</Button>
-        </Modal.Footer>
-      </Modal>
-    </>
-  );
-}
+//       <Modal
+//         show={show}
+//         onHide={handleClose}
+//         backdrop="static"
+//         keyboard={false}
+//       >
+//         <Modal.Header closeButton>
+//           <Modal.Title>Modal title</Modal.Title>
+//         </Modal.Header>
+//         <Modal.Body>
+//           I will not close if you click outside me. Don't even try to press
+//           escape key.
+//         </Modal.Body>
+//         <Modal.Footer>
+//           <Button variant="secondary" onClick={handleClose}>
+//             Close
+//           </Button>
+//           <Button variant="primary">Understood</Button>
+//         </Modal.Footer>
+//       </Modal>
+//     </>
+//   );
+// }
 
-// render(<Example />);
+// // render(<Example />);
 
 export default Contact;

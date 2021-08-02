@@ -9,6 +9,7 @@ const Navbar = () => {
         <Link to="/" className="navbar-brand">
           Redux
         </Link>
+
         <div>
           <Link to="/contacts/add" className="btn btn-light ml-auto">
             Create Contact
