@@ -1,13 +1,3 @@
-//how many action perform in redux app to write to code here
-//this is fat arrow function
-// export const incNUmber = () => {
-//   return { type: "INCREMENT" };
-// };
-
-// export const deccNUmber = () => {
-//   return { type: "DECREMENT" };
-// };
-
 import {
   CREATE_CONTACT,
   GET_CONTACT,
